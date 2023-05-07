@@ -1,0 +1,64 @@
+# job_interview_rules.krb
+
+junior_software_links
+    use links(
+        ("https://leetcode.com/problems/two-sum/", "https://leetcode.com/problems/single-number/", "https://leetcode.com/problems/move-zeroes/")
+    )
+    when
+        job_interview_questions.role_application($ans)
+        check $ans in (1,)
+        job_interview_questions.experience_level($sans)
+        check $sans in (1,)
+
+medium_software_links
+    use links(
+        ("https://leetcode.com/problems/intersection-of-two-arrays-ii/", "https://leetcode.com/problems/missing-number/", "https://leetcode.com/problems/symmetric-tree/")
+    )
+    when
+        job_interview_questions.role_application($ans)
+        check $ans in (1,)
+        job_interview_questions.experience_level($sans)
+        check $sans in (2,)
+
+senior_software_links
+    use links(
+        ("https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/", "https://leetcode.com/problems/top-k-frequent-elements/", "https://leetcode.com/problems/number-of-islands/")
+    )
+    when
+        job_interview_questions.role_application($ans)
+        check $ans in (1,)
+        job_interview_questions.experience_level($sans)
+        check $sans in (3,)
+
+
+junior_data_links
+    use links(
+        ("https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&id=top-sql-50",
+        "https://leetcode.com/problems/big-countries/?envType=study-plan-v2&id=top-sql-50",
+        "https://leetcode.com/problems/invalid-tweets/?envType=study-plan-v2&id=top-sql-50")
+    )
+    when
+        job_interview_questions.role_application($ans)
+        check $ans in (2,)
+        job_interview_questions.experience_level($sans)
+        check $sans in (1,)
+
+medium_data_links
+    use links(
+        ("https://leetcode.com/problems/managers-with-at-least-5-direct-reports/?envType=study-plan-v2&id=top-sql-50", "https://leetcode.com/problems/confirmation-rate/?envType=study-plan-v2&id=top-sql-50", "https://leetcode.com/problems/monthly-transactions-i/?envType=study-plan-v2&id=top-sql-50")
+    )
+    when
+        job_interview_questions.role_application($ans)
+        check $ans in (2,)
+        job_interview_questions.experience_level($sans)
+        check $sans in (2,)
+
+senior_data_links
+    use links(
+        ("https://leetcode.com/problems/department-top-three-salaries/?envType=study-plan-v2&id=top-sql-50", "https://leetcode.com/problems/second-highest-salary/?envType=study-plan-v2&id=top-sql-50", "https://leetcode.com/problems/investments-in-2016/?envType=study-plan-v2&id=top-sql-50")
+    )
+    when
+        job_interview_questions.role_application($ans)
+        check $ans in (2,)
+        job_interview_questions.experience_level($sans)
+        check $sans in (3,)

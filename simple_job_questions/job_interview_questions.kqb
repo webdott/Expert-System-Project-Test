@@ -1,0 +1,18 @@
+# questions.kqb
+
+role_application($ans)
+	What role are you applying for?
+	---
+	$ans = select_1
+		1: Software Engineering
+		2: Data Science
+		3: None of the above
+			! Sorry, we currently do not have any preparation questions for you
+
+experience_level($sans)
+	How many years of experience do you have?
+	---
+	$sans = select_1
+		1: 0 - 2
+		2: 3 - 6
+		3: 7 and above
