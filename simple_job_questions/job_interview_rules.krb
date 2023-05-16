@@ -2,7 +2,18 @@
 
 junior_software_links
     use links(
-        ("https://leetcode.com/problems/two-sum/", "https://leetcode.com/problems/single-number/", "https://leetcode.com/problems/move-zeroes/")
+        (
+            "https://leetcode.com/problems/two-sum/", 
+            "https://leetcode.com/problems/single-number/", 
+            "https://leetcode.com/problems/move-zeroes/", 
+            "https://leetcode.com/problems/majority-element/", 
+            "https://leetcode.com/problems/reverse-bits/", 
+            "https://leetcode.com/problems/palindrome-number/", 
+            "https://leetcode.com/problems/longest-substring-without-repeating-characters/", 
+            "https://leetcode.com/problems/generate-parentheses/", 
+            "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+            "https://leetcode.com/problems/group-anagrams/"
+        )
     )
     when
         job_interview_questions.role_application($ans)
@@ -10,9 +21,20 @@ junior_software_links
         job_interview_questions.experience_level($sans)
         check $sans in (1,)
 
-medium_software_links
+midlevel_software_links
     use links(
-        ("https://leetcode.com/problems/intersection-of-two-arrays-ii/", "https://leetcode.com/problems/missing-number/", "https://leetcode.com/problems/symmetric-tree/")
+        (
+            "https://leetcode.com/problems/intersection-of-two-arrays-ii/", 
+            "https://leetcode.com/problems/missing-number/", 
+            "https://leetcode.com/problems/symmetric-tree/", 
+            "https://leetcode.com/problems/design-hashmap/", 
+            "https://leetcode.com/problems/reverse-words-in-a-string/", 
+            "https://leetcode.com/problems/number-of-islands/", 
+            "https://leetcode.com/problems/basic-calculator/", 
+            "https://leetcode.com/problems/implement-queue-using-stacks/", 
+            "https://leetcode.com/problems/regular-expression-matching/", 
+            "https://leetcode.com/problems/string-to-integer-atoi/"
+        )
     )
     when
         job_interview_questions.role_application($ans)
@@ -22,7 +44,18 @@ medium_software_links
 
 senior_software_links
     use links(
-        ("https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/", "https://leetcode.com/problems/top-k-frequent-elements/", "https://leetcode.com/problems/number-of-islands/")
+        (
+            "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/", 
+            "https://leetcode.com/problems/top-k-frequent-elements/", 
+            "https://leetcode.com/problems/number-of-islands/", 
+            "https://leetcode.com/problems/sudoku-solver/", 
+            "https://leetcode.com/problems/wildcard-matching/", 
+            "https://leetcode.com/problems/max-points-on-a-line/", 
+            "https://leetcode.com/problems/the-skyline-problem/", 
+            "https://leetcode.com/problems/find-median-from-data-stream/", 
+            "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/", 
+            "https://leetcode.com/problems/lfu-cache/"
+        )
     )
     when
         job_interview_questions.role_application($ans)
@@ -33,9 +66,18 @@ senior_software_links
 
 junior_data_links
     use links(
-        ("https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&id=top-sql-50",
-        "https://leetcode.com/problems/big-countries/?envType=study-plan-v2&id=top-sql-50",
-        "https://leetcode.com/problems/invalid-tweets/?envType=study-plan-v2&id=top-sql-50")
+        (
+            "https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/big-countries/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/invalid-tweets/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/employee-bonus/",
+            "https://leetcode.com/problems/biggest-single-number/",
+            "https://leetcode.com/problems/daily-leads-and-partners/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/find-followers-count/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/recyclable-and-low-fat-products/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/rearrange-products-table/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/calculate-special-bonus/?envType=study-plan-v2&id=top-sql-50"
+        )
     )
     when
         job_interview_questions.role_application($ans)
@@ -43,9 +85,20 @@ junior_data_links
         job_interview_questions.experience_level($sans)
         check $sans in (1,)
 
-medium_data_links
+midlevel_data_links
     use links(
-        ("https://leetcode.com/problems/managers-with-at-least-5-direct-reports/?envType=study-plan-v2&id=top-sql-50", "https://leetcode.com/problems/confirmation-rate/?envType=study-plan-v2&id=top-sql-50", "https://leetcode.com/problems/monthly-transactions-i/?envType=study-plan-v2&id=top-sql-50")
+        (
+            "https://leetcode.com/problems/managers-with-at-least-5-direct-reports/?envType=study-plan-v2&id=top-sql-50", 
+            "https://leetcode.com/problems/confirmation-rate/?envType=study-plan-v2&id=top-sql-50", 
+            "https://leetcode.com/problems/monthly-transactions-i/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/nth-highest-salary/",
+            "https://leetcode.com/problems/consecutive-numbers/",
+            "https://leetcode.com/problems/the-latest-login-in-2020/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/count-salary-categories/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/confirmation-rate/?envType=study-plan-v2&id=top-sql-50",
+            "https://leetcode.com/problems/exchange-seats/",
+            "https://leetcode.com/problems/market-analysis-i/",
+        )
     )
     when
         job_interview_questions.role_application($ans)
@@ -55,7 +108,18 @@ medium_data_links
 
 senior_data_links
     use links(
-        ("https://leetcode.com/problems/department-top-three-salaries/?envType=study-plan-v2&id=top-sql-50", "https://leetcode.com/problems/second-highest-salary/?envType=study-plan-v2&id=top-sql-50", "https://leetcode.com/problems/investments-in-2016/?envType=study-plan-v2&id=top-sql-50")
+        (
+            "https://leetcode.com/problems/department-top-three-salaries/?envType=study-plan-v2&id=top-sql-50", 
+            "https://leetcode.com/problems/second-highest-salary/?envType=study-plan-v2&id=top-sql-50", 
+            "https://leetcode.com/problems/investments-in-2016/?envType=study-plan-v2&id=top-sql-50",
+            "https://www.hackerrank.com/challenges/validating-postalcode/problem",
+            "https://www.hackerrank.com/challenges/maximize-it/problem",
+            "https://www.hackerrank.com/challenges/matrix-script/problem",
+            "https://leetcode.com/problems/trips-and-users/",
+            "https://leetcode.com/problems/human-traffic-of-stadium/",
+            "https://leetcode.com/problems/capital-gainloss/",
+            "https://leetcode.com/problems/movie-rating/"
+        )
     )
     when
         job_interview_questions.role_application($ans)
